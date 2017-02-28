@@ -1,14 +1,18 @@
 <%= form_for User.new do |f| %>
- <%= f.label :fname %>:
- <%= f.text_field :fname %>
+ <%= f.label :name %>:
+ <%= f.text_field :name %>
  <br />
  <br />
 
 
  <%= f.label :email %>:
  <%= f.text_field :email %>
-   <br />
+ <br />
  <br />
 
+<%= f.label :password %>:
+ <%= f.text_field :password %>
+ <br />
+ <br />
  <%= f.submit %>
 <% end %>
