@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'users/index'
 
   get 'home/index'
+  get '/about', to: 'pages#about'
 
   resources :users
   resources :posts do 
