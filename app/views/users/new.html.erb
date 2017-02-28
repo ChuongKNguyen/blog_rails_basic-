@@ -1,0 +1,14 @@
+<%= form_for User.new do |f| %>
+ <%= f.label :fname %>:
+ <%= f.text_field :fname %>
+ <br />
+ <br />
+
+
+ <%= f.label :email %>:
+ <%= f.text_field :email %>
+   <br />
+ <br />
+
+ <%= f.submit %>
+<% end %>
